@@ -1,0 +1,353 @@
+/*iconfont*/
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    font-size: 36px;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 535744 */
+    src: url('https://at.alicdn.com/t/font_535744_9he3fyw7jfqd7vi.eot');
+    src: url('https://at.alicdn.com/t/font_535744_9he3fyw7jfqd7vi.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_535744_9he3fyw7jfqd7vi.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_535744_9he3fyw7jfqd7vi.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_535744_9he3fyw7jfqd7vi.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    color:#0d1218;
+    text-align: center;
+}
+.iconq{
+    font-family: 'iconfont';
+}
+.iconw{
+    font-family: 'iconfont';
+}
+.totop{
+    font-family: 'iconfont';
+
+}
+/*关于*/
+.about{
+    padding:120px 0;
+    box-sizing: border-box;
+}
+.about-head{
+    max-width:600px;
+    margin:0 auto 50px;
+    text-align: center;
+}
+.about-head h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top:0;
+    color:#000;
+    font-weight:700;
+    font-family: 'Poppins', sans-serif;
+}
+.about-head p{
+    font-size: 14px;
+    line-height: 22px;
+    color:#55575d;
+}
+.about-img{
+    /*padding:0 15px;*/
+    box-sizing: border-box;
+}
+.about-img img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.about-text{
+    /*padding:0 15px;*/
+    box-sizing: border-box;
+}
+.about-text h1{
+    color:#0d0d0d;
+    margin-bottom: 10px;
+    font-size: 36px;
+    margin-top:0;
+}
+.about-text p{
+    color:#55575d;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+
+/*技能*/
+.skill{
+    padding:120px 0 90px;
+    background: #f3f3f4;
+}
+.skill-main{
+    float: left;
+    padding:0 15px;
+    box-sizing: border-box;
+}
+.skill-m:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px 3px #ccc;
+}
+.skill-m{
+    padding:30px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+.skill-main h1{
+    text-align: center;
+    font-size: 24px;
+    color:#0d0d0d;
+    margin-bottom: 10px;
+}
+.skill-main p{
+    font-size: 14px;
+    color: #55575d;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+/*作品*/
+.mywork{
+    padding: 120px 0;
+    text-align: center;
+}
+.mywork-head{
+    max-width:500px;
+    margin:30px auto;
+    overflow: hidden;
+}
+.mywork-head li{
+    color:#979797;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 25px;
+    float: left;
+}
+.mywork-head li:first-child{
+    color:#000;
+}
+.work-main{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.work-s{
+    position: relative;
+}
+.work-main img{
+    display: block;
+    max-width: 100%;
+    height:auto;
+}
+.zhe{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: rgba(0,0,0,.6);
+    opacity:0;
+    transition: all 1s;
+}
+.work-s:hover .zhe{
+    opacity:1;
+}
+.work-s:hover .zhezi{
+    opacity:1;
+}
+.work-s:hover .zhezi a{
+    opacity:1;
+}
+.work-s:hover .zhezi h1{
+    opacity:1;
+}
+.work-s:hover .zhezi p{
+    opacity:1;
+}
+.work-s:hover .iconfont{
+    opacity: 1;
+}
+.zhezi{
+    position: absolute;
+    width:100%;
+    top:50%;
+    left:0;
+    text-align: center;
+    opacity:0;
+    transition: all 1s;
+    transform: translateY(-50%);
+}
+.zhezi a {
+    display: block;
+    margin:0 auto;
+    color:#0d1218;
+    /*float: left;*/
+    background: rgba(255,255,255,.8);
+    height:36px;
+    width:36px;
+    text-align: center;
+    font-size: 16px;
+    line-height:36px;
+    border-radius: 100%;
+    opacity:0;
+    transition: all .5s;
+    text-decoration: none;
+}
+.zhezi h1{
+    font-size: 18px;
+    line-height:24px;
+    color:#fff;
+    margin-top: 15px;
+    opacity:0;
+    transition: all 1s;
+}
+.zhezi p{
+    color:#fff;
+    font-size: 14px;
+    line-height:24px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+
+/*联系*/
+.call-left{
+    float: left;
+    padding:0 15px;
+}
+.ip-name,.ip-you,.ip-lianxi{
+    width:100%;
+    border:1px solid #e4e7e9;
+    border-radius: 3px;
+    font-size: 15px;
+    line-height:24px;
+    color:#a3a8ab;
+    margin-bottom:20px;
+    padding:10px 15px;
+}
+.ip-tijiao{
+    padding:15px 30px;
+    background: #1a1a1a;
+    border-radius: 2px;
+    color:#fff;
+    line-height:1;
+    margin-bottom:50px;
+}
+.ip-lianxi{
+    resize: none;
+}
+.call-right{
+    float: left;
+    padding:0 15px;
+}
+.c1{
+    margin-bottom:30px;
+    overflow: hidden;
+}
+.icon1{
+    float: left;
+    margin-right:15px;
+}
+.icon1 span{
+    color:#55575d;
+    display: block;
+    height:60px;
+    width:60px;
+    background: #f6f6f6;
+    font-size: 36px;
+    text-align: center;
+}
+.content p{
+    font-size: 16px;
+    line-height:26px;
+    color:#959595
+}
+
+
+/*尾部*/
+footer{
+    background: #0d1218;
+    color:#fff;
+    padding:42px 0;
+    margin-top: 30px;
+}
+.foot1{
+    padding:0 15px;
+}
+.foot1 p{
+    color:#fff;
+    padding:6px 0;
+    font-size: 14px;
+    line-height:24px;
+}
+.foot2 ul{
+    float: right;
+}
+.foot2 ul li{
+    float: left;
+    margin-right:5px;
+}
+.foot2 ul li:hover .iconw{
+    color:#fff;
+    background: #67b6ff;
+}
+.foot2 ul li a{
+    display: block;
+    font-size: 26px;
+    line-height:38px;
+    color:#252525;
+    height:36px;
+    width:36px;
+    background: rgba(255,255,255,.5);
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.totop{
+    position: absolute;
+    right:50%;
+    top:0;
+    transform: translateY(-165%) rotate(315deg);
+    font-size: 16px;
+    line-height:38px;
+    color:#fff;
+    width: 36px;
+    height:36px;
+    background: #0d1218;
+    transition: all 0.25s;
+    text-align: center;
+}
+.totop:hover{
+    color:#000;
+    background:#67b6ff ;
+    text-decoration: none;
+}
+
+/*移动端*/
+@media screen and (max-width: 768px){
+    .about-img{
+        margin-bottom:30px;
+    }
+}
+/*平板端*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .about-img{
+        margin-bottom:30px;
+    }
+}
+/*pc小屏*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+}
+/*pc大屏*/
+@media screen and (min-width: 1200px){
+
+}
